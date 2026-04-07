@@ -8,8 +8,10 @@
   </head>
   <body>
     <nav>
-     <h2>Pamplemouche Historia</h2>
-      <a href="accueil">commencer</a>
+      <ul>
+     <li><h2>Pamplemouche Historia</h2></li>
+      <li><a href="accueil">commencer</a></li>
+      </ul>
     </nav>
     <style>
       h2 {
@@ -20,6 +22,18 @@
   font-variation-settings:
     "wdth" 100;
       }
+      nav ul {
+  display: flex;
+  list-style: none; /* Enlève les puces */
+  padding: 0;
+  margin: 0;
+  gap: 20px; /* Espace entre les éléments */
+}
+
+/* Optionnel : pour centrer verticalement les liens */
+nav ul li {
+  display: inline-block;
+}
     </style>
   </body>
 </html>
